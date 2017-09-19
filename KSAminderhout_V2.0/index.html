@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<html lang="nl-be">
+<head>
+    <!-- Website made by KSA Minderhout - copyright claime -->
+    <title>KSA Minderhout</title>
+    <link rel="shortcut icon" href="foto's/logo_KSA.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="color=#0094ff" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script src="https://use.fontawesome.com/639fbaa311.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/32c83c566c.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="row">
+                    <a class="navbar-brand" href="#myPage">
+                        <img alt="KSA Minderhout" src="foto's/logo_KSA-Minderhout_logo.png" width="220" height="50">
+                    </a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#begeleiding">Begeleiding</a></li>
+                    <li><a href="#burchtkrant">Burchtkrant</a></li>
+                    <li><a href="#verhuur">Verhuur</a></li>
+                    <li><a href="#gallerij">Gallerij</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron Section -->
+    <div class="jumbotron">
+        <div class="jumbotron-img1"><h1>WELKOM</h1>
+            <p>Dit is de nieuwe site van KSA Minderhout</p>
+            <br role="separator" class="divider" />
+            <p>contacteer ons!</p>
+            <a class="btn btn-default btn-primary btn-lg" href="#contact">contact</a>
+        </div>
+        
+    </div>
+
+    <!-- Container (Info Section) -->
+    <div id="info" class="container-fluid">
+        <h2>Info</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-9">
+                <h3>Wat/Wie is KSA Minderhout?</h3><br>
+                <p>KSA Minderhout is één van de 300 plaatselijke groepen van KSA, met zijn 35 000 leden één van de drie grootste jeugdverenigingen in Vlaanderen. KSA staat voor Katholieke Studenten Actie, maar de invulling die daaraan wordt gegeven, verschilt van groep tot groep. Wie meer informatie wil over de KSA, kan altijd terecht op <a href="http://www.ksa.be/" target="_blank" rel="noopener">www.ksa.be</a>, de website van de nationale overkoepeling.</p>
+                <p>De jongste leden van KSA Minderhout zijn zes jaar oud. De activiteiten voor de aparte leeftijdsgroepen vinden meestal 's zaterdags plaats. Die kunnen gaan van een spelletjesnamiddag of knutselactiviteit tot een heus bosspel of een speurtocht. Enkele keren per jaar worden er ook activiteiten gehouden voor alle leden samen. Zo gaan we elk jaar op groepsreis, er is een 'stuntdag' en ook een ouderfeest waarbij de leden hun kunnen in toneeltjes laten zien. Het hoogtepunt van elk jaar is natuurlijk <strong>het kamp dat doorgaat van 3 t.e.m. 11 augustus (voor de jongste leden van 6 t.e.m. 11 augustus)</strong>.We trekken dan meestal naar het Franstalige deel van België, zo trokken we in 2013 naar Mont-Houffalize.</p>
+                <p>De lokalen van onze jeugdbeweging liggen in de Schoolstraat in het dorpscentrum van Minderhout (zie het kaartje hieronder), en wat verder weg staat de 'Burcht', ons lokaaltje in een bos aan de Bredaseweg. De meeste activiteiten worden gehouden in de gebouwen aan de Schoolstraat, bestaande uit het begeleidingslokaal(bovenverdieping), een garage, de toiletten, een keuken, een eigen sjo-lokaal en twee andere lokalen. De Burcht wordt vooral gebruikt bij bosspelen.</p>
+            </div>
+            <div class="col-sm-3">
+                <span class="glyphicon glyphicon-question-sign logo slideanim"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-9 pull-right">
+                <h3>Inschrijvingen, Contactpersoon en rekeningsnummers</h3><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <span class="glyphicon glyphicon-user logo slideanim"></span><br>
+            </div>
+            <div class="col-sm-9">
+                <h4>Secretariaat</h4>
+                <p>Eén van onze begeleidsters en begeleiders doet het secretariaat van onze KSA. Deze persoon is de contactpersoon van de jeugdbeweging; dat is dus het adres waar je post voor KSA Minderhout naartoe kan sturen. Verder kan je met vragen over Verzekeringen ook terecht bij de secretaris, en verzorgt hij of zij de inschrijvingen</p>
+                <p>Het secretariaat wordt momenteel gedaan door<strong> <var id="SECRENAAM">/*secretariaat naam*/</var></strong>, hier is de contactinformatie:</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> <var id="SECREADRES">/*secretariaat adres*/</var></p>
+                <p><span class="glyphicon glyphicon-phone"></span> <var id="SECRETEL">/*secretariaat gsmnummer*/</var></p>
+                <p><span class="glyphicon glyphicon-envelope"></span> <var id="SECREMAIL">/*secretariaat mail*/</var></p><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <span class="glyphicon glyphicon-pencil logo slideanim"></span><br>
+            </div>
+            <div class="col-sm-9">
+                <h4>Inschrijvingsgeld</h4>
+                <p>Het inschrijvingsgeld voor KSA Minderhout bedraagt 40 euro per lid, per jaar.</p>
+                <p>Waar wordt dat geld voor gebruikt?</p>
+                <ul>
+                    <li>Het grootste deel, 19 euro, storten wij integraal door naar KSA Nationaal, onze overkoepelende organisatie. Via KSA Nationaal is je kind dan verzekerd voor lichamelijke ongevallen, burgerlijke aansprakelijkheid en rechtsbijstand. Meer informatie op <a href="http://www.ksa.be/Verzekering" target="_blank" rel="noopener">http://www.ksa.be/Verzekering</a>, of bij de secretaris van KSA Minderhout.</li>
+                    <li>Het overige bedrag wordt gebruikt om activiteiten te kunnen organiseren voor onze leden. Spelmateriaal, knutselmateriaal, lokalen die in orde zijn, water en energie... Ook die dingen moeten wij als vrijwilligersorganisatie immers zelf betalen!</li>
+                </ul>
+                <p>Wanneer u problemen zou hebben om het lidgeld van uw kinderen te betalen, zijn er verschillende manieren om ondersteuning te krijgen. De gemeente heeft een fonds voor 'kansarmen kinderen en jongeren', waardoor u 15 euro van het lidgeld kan terugkrijgen. Leden van de CM kunnen via 'Fit & Fun' hetzelfde bedrag terugkrijgen. Meer info bij de gemeente en de CM. Een lid is ingeschreven als een inschrijving met naam, adres, telefoonnummer, geboortedatum en handtekening van de ouders is ingediend bij het secretariaat, en bovendien het <strong>lidgeld betaald is op 733-3282573-26</strong>. Op dit rekeningnummer wordt ook het kampgeld gestort. Meer informatie daarover krijgen leden een tijdje voor het kamp.</p><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <span class="glyphicon glyphicon-eur logo slideanim"></span><br>
+            </div>
+            <div class="col-sm-9">
+                <h4>Boekhouding</h4>
+                <p>De boekhouder van onze KSA zorgt voor alle geldzaken, met uitzondering van het lid- en kampgeld. Facturen komen dus bij de boekhouder terecht. Momenteel is onze boekhouder<strong> <var id="BOEKNAAM">/*boekhouder naam*/</var></strong>.</p>
+                <p>Hier is de contactinformatie:</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> <var id="BOEKADRES">/*boekhouder adres*/</var></p>
+                <p><span class="glyphicon glyphicon-phone"></span> <var id="BOEKTEL">/*boekhouder gsmnummer*/</var></p>
+                <p><span class="glyphicon glyphicon-envelope"></span> <var id="BOEKMAIL">/*boekhouder mailadres*/</var></p>
+                <p>Het rekeningnummer van de boekhouding is: <strong>BE70 7333 2825 7225</strong></p><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-9">
+                <h3>Leeftijdsgroepen</h3><br>
+                <p><strong>Onze jeugdbeweging is opgedeeld in 8 verschillende leeftijdsgroepen, in andere KSA's ook wel 'bannen' genoemd. Elke LTG heeft zijn eigen begeleiding, zie daarvoor de <a href="begeleiding.html">begeleidingspagina</a>. Voor de activiteiten van de groepen tijdens dit trimester kan je terecht in de <a href="burchtkrant.html">Burchtkrant</a>.</strong></p>
+                <p>Onze jongste leden, uit het eerste en tweede jaar van de basisschool, vormen <a href="begeleiding.html#joro1-2">Joro 1-2</a>. De activiteiten zijn speciaal aangepast aan de leeftijd van deze leden. Er worden dan ook vooral veel spelletjes gespeeld, die meestal leuk ingekleed zijn door de begeleiding.</p>
+                <p>De 8- en 9-jarigen komen terecht in <a href="begeleiding#joro3-4">Joro 3</a> en <a href="begeleiding#joro3-4">Joro 4</a>. Vanaf deze 2 groepen kunnen de leden enkele dagen langer mee op kamp en ook in de andere activiteiten is natuurlijk te merken dat ze niet langer de jongsten zijn.</p>
+                <p>De laatste twee jaren basisschool worden opgevangen in <a href="begeleiding.html#joro5-6">Joro 5-6</a>. Voor deze leden wordt al eens een meer spectaculaire activiteit georganiseerd, soms een stadsspel, soms een weekendje.</p>
+                <p><a href="begeleiding.html#knim">Knimmers</a> zijn 12 tot 13 jaar oud. Ze zijn geen Joro's meer en dat blijkt ook wel uit de activiteiten, die meestal 's avonds plaats vinden.</p>
+                <p>De laatste groep die enkel uit 'gewone' leden bestaat, is de <a href="begeleiding.html#sjo">Sjo</a>; de 14- en 15-jarigen. Deze groep heeft hun activiteiten ook meestal 's avonds. Het hoogtepunt van hun jaar valt tijdens de paasvakantie. Het ene jaar gaan dan alle Sjo'ers van Vlaanderen op Joepie, een vierdaagse voettocht naar de mysterieuze Stad X, het andere jaar organiseert de leiding van de Sjo een geweldig weekendje!</p>
+                <p>Na de Sjo kan je kiezen: ofwel ga je bij de begeleiding, ofwel blijf je gewoon lid van de <a href="begeleiding.html#16">+16</a>. In deze speciale leeftijdsgroep zitten verder ook de hele begeleiding en de ingeschreven oud-begeleiding. De +16 heeft aparte, aangepaste activiteiten, maar gaat niet als afzonderlijke groep mee op kamp. Om de twee jaar is er wel de provinciaal georganiseerde Trip-Trap; een vierdaagse fietstocht tijdens de paasvakantie.</p>
+                <p>Geen echte LTG, maar wel deel van de begeleiding is de <a href="begeleiding.html#16">BZL</a>, de Begeleiding Zonder Leden. Die is er speciaal voor begeleiders die het een jaartje rustiger aan willen doen; ze hebben gedurende dat jaar geen leden, maar blijven wel volledig meedraaien in de begeleiding en +16.</p>
+            </div>
+            <div class="col-sm-3">
+                <span class="glyphicon glyphicon-briefcase logo slideanim"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Begeleiding Section) -->
+    <div id="begeleiding" class="container-fluid text-center bg-grey">
+        <h2>Begeleiding</h2>
+        <a href="begeleiding.html"><h4>Onze begeleidings ploeg</h4></a>
+        <br>
+        <div class="row no-gutter">
+            <div class="col-lg-4 col-sm-6">
+                <a href="begeleiding.html#joro1-2" id="Joro 1-2" role="button" class="branch-box">
+                    <div class="img__wrap">
+                        <img src="foto's/bgl00_JORO1-2.png" width="200" class="img-responsive" alt="Joro1-2">
+                        <div class="img__description_layer">
+                            <div class="row"><p>1ste & 2de leerjaar</p></div>
+                            <div class="row"><h3>Leiding Joro 1-2</h3></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="background-color: #ffdd93;">
+                <a href="begeleiding.html#joro3-4" id="joro3-4" role="button" class="branch-box">
+                    <div class="img__wrap">
+                        <img src="foto's/bgl02_JORO3-4.png" width="200" class="img-responsive" alt="Joro3&4">
+                        <div class="img__description_layer">
+                            <div class="row"><p>3de & 4de leerjaar</p></div>
+                            <div class="row"><h3>Leiding Joro 3 & 4</h3></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="background-color: #fad9ca;">
+                <a href="begeleiding.html#joro5-6" id="joro5-6" role="button" class="branch-box">
+                    <div class="img__wrap">
+                        <img src="foto's/bgl04_JORO5-6.png" width="200" class="img-responsive" alt="joro5-6">
+                        <div class="img__description_layer">
+                            <div class="row"><p>5de & 6de leerjaar</p></div>
+                            <div class="row"><h3>Leiding Joro 5-6</h3></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="background-color: #ebd6e7;">
+                <a href="begeleiding.html#knim" id="knim" role="button" class="branch-box">
+                    <div class="img__wrap">
+                        <img src="foto's/bgl06_KNIM.png" width="200" class="img-responsive" alt="Knimmers">
+                        <div class="img__description_layer">
+                            <div class="row"><p>1ste & 2de middelbaar</p></div>
+                            <div class="row"><h3>Leiding Knim</h3></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="background-color: #c9e6f4;">
+                <a href="begeleiding.html#sjo" id="sjo" role="button" class="branch-box">
+                    <div class="img__wrap">
+                        <img src="foto's/bgl07_SJO.png" width="200" class="img-responsive" alt="sjo'ers">
+                        <div class="img__description_layer">
+                            <div class="row"><p>3de & 4de middelbaar</p></div>
+                            <div class="row"><h3>Leiding Sjo</h3></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" style="background-color: #cae0b2;">
+                <a href="begeleiding.html#16" id="+16" role="button" class="branch-box">
+                    <div class="img__wrap">
+                        <img src="foto's/bgl08_16.png" width="200" class="img-responsive" alt="+16'ers">
+                        <div class="img__description_layer">
+                            <div class="row"><p>5de middelbaar & ouder</p></div>
+                            <div class="row"><h3>Leiding +16</h3></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Burchtkrant Section) -->
+    <div id="burchtkrant" class="container-fluid text-center">
+        <h2>Burchtkrant</h2><br>
+        <h4>Lees <a href="burchtkrant.html">hier </a>de volledige burchtkrant.</h4>
+        <h4>Of kies één van onderstaande caterogieën.</h4>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="burchtkrant.html#voorwoord">
+                        <img src="foto's/bk1_Voorwoord.png" alt="voorwoord" width="500" height="407">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="burchtkrant.html#activiteiten">
+                        <img src="foto's/bk2_Programma.png" alt="programma" width="500" height="407">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="burchtkrant.html#allerlei">
+                        <img src="foto's/bk3_Allerlei.png" alt="allerlei" width="500" height="407">
+                    </a>
+                </div>
+            </div>
+            <div class="row text-center slideanim">
+                <a class="btn btn-default btn-primary btn-lg" href="burchtkrant.html#aanmelden">BK via Mail</a>
+                <a class="btn btn-default btn-primary btn-lg" href="Test.txt" download="Test.txt">Download BK 3</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center bg-grey">
+        <h2>Grote Activiteiten</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox" style="align-content: center;">
+                <div class="item active">
+                    <img class="center-block" style='height: 25%; align-content: center;' src="foto's/" alt="affiche" />
+                </div>
+                <div class="item">
+                    <img class="center-block" style='height: 25%; align-content: center;' src="foto's/" alt="affiche" />
+                </div>
+                <div class="item">
+                    <img class="center-block" style='height: 25%; align-content: center;' src="foto's/" alt="affiche" />
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Verhuur Section) -->
+    <div id="verhuur" class="container-fluid">
+        <div class="text-center">
+            <h2>Verhuur</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-xs-12">
+                <h3>Onze lokalen</h3>
+                <p>Ben je nog opzoek naar een toffe locatie om te overnachten met je jeugdbeweging/groep? Geef je een feest en zoek je nog een zaaltje? Dan kunnen jullie zeker terecht bij onze vernieuwde lokalen in het dorpscentrum van Minderhout. De lokalen bevinden zich in de Schoolstraat en zijn gemakkelijk te bereiken met het openbaar vervoer. Het is beschikbaar voor een weekend, voor feestjes, vatjes,... </p>
+                <p>De lokalen die verhuurd worden bestaan uit één groot en één kleiner lokaal. In het groot lokaal bevindt zich de keuken. In deze keuken kan de huurder beschikken over volgende zaken: basis keukenmateriaal, oven,  microgolf, fornuis met 4 kookplaten, waterkoker, croque machines, 2 koelkasten (één kleine en één grote), 1 kleine diepvriezer en een paar keukenhanddoeken.  In de lokalen zijn ook tafels, banken en stoelen aanwezig. Hiernaast zijn er toiletten en een douche beschikbaar. Rondom het lokaal zijn er grasveldjes om te spelen en parkeermogelijkheid.</p>
+                <p>Interesse? Stuur dan een mailtje met je gegevens naar <strong>verhuur.ksaminderhout@gmail.com</strong> .</p><br />
+                <p>Prijzen:</p>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Duur</th>
+                            <th>Prijs</th>
+                            <th>Waarborg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">4 uur</td>
+                            <td>€15/uur</td>
+                            <td>€250</td>
+                        </tr> 
+                        <tr>
+                            <td scope="row">1 dag/1 nacht (>4uur)</td> 
+                            <td>€100</td>
+                            <td>€250</td>
+                        </tr>
+                        <tr> 
+                            <td scope="row">weekend (2 nachten)</td>
+                            <td>€150</td> 
+                            <td>€250</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">>2 nachten</td>
+                            <td>€150 + €50/nacht extra</td>
+                            <td>€250</td>
+                        </tr>
+                    </tbody> 
+                </table>
+            </div>
+            <div class="col-sm-4 col-xs-12 slideanim">
+                <div class="panel panel-default text-center">
+                    <a href="https://picasaweb.google.com/108841143082213808207/VerhuurLokalenKSAMinderhout?authkey=Gv1sRgCOCBusWZ37i_Vw#" target="_blank" rel="noopener">
+                        <div class="panel-body">
+                            <img src="foto's/verhuur_Lokalen.jpg" alt="foto's lokalen"/>
+                        </div>
+                        <div class="panel-footer">
+                            <h2>Foto's Lokalen</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div><br />
+        <div class="row">
+            <div class="col-sm-4 col-xs-12 slideanim">
+                <div class="panel panel-default text-center">
+                    <a href="https://picasaweb.google.com/108841143082213808207/VerhuurKookmateriaal?authkey=Gv1sRgCOe37umu2ZipXA" target="_blank"  rel="noopener">
+                        <div class="panel-body">
+                            <img src="foto's/verhuur_kookmateriaal.jpg" alt="foto's kookmateriaal" />
+                        </div>
+                        <div class="panel-footer">
+                            <h2>Foto's kookmateriaal</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-8 col-xs-12">
+                <h3>Keukenmateriaal</h3>
+                <p>KSA Minderhout verhuurt groot kookmateriaal voor kampen, spaghetti-avonden, … De wokpan en de industriële mixer kunnen enkel voor één dag worden gehuurd. Het andere materiaal kan voor een langere periode gehuurd worden.  Het materiaal moet gehaald en teruggebracht worden bij onze lokalen.</p>
+                <p>Interesse? Stuur dan een mailtje met je gegevens naar <strong>verhuur.ksaminderhout@gmail.com</strong> .</p><br />
+                <p>Prijzen:</p>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Kookmateriaal</th>
+                            <th>Prijs</th>
+                            <th>Waarborg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Wokpan + steun (enkel voor 1 dag)</td>
+                            <td>€25</td>
+                            <td>€200</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">industriële mixer  (enkel voor 1 dag)</td>
+                            <td>€25</td>
+                            <td>€250</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">kookpot met deksel (40cm diameter, 24cm hoogte)</td>
+                            <td>€25 + €1/per dag extra</td>
+                            <td>€100</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">kookpot (40cm diameter, 24cm hoogte)</td>
+                            <td>€25 + €1/per dag extra</td>
+                            <td>€100</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">kookpot met deksel (45cm diameter, 45cm hoogte)</td>
+                            <td>€25 + €1/per dag extra</td>
+                            <td>€100</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">kookpot met deksel (50cm diameter, 50cm hoogte)</td>
+                            <td>€25 + €1/per dag extra</td>
+                            <td>€100</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">kookpot met kraantje (45cm diameter, 45cm hoogte)</td>
+                            <td>€25 + €1/per dag extra</td>
+                            <td>€100</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">4 X pan (40cm diameter)</td>
+                            <td>per stuk €25 + €1/per dag extra</td>
+                            <td>€100</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Gaspitjes</td>
+                            <td>€15 + €1/per dag extra</td>
+                            <td>€50</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Grote pureestamper</td>
+                            <td>€10 + €1/per dag extra</td>
+                            <td>€50</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Grote garde</td>
+                            <td>€10 + €1/per dag extra</td>
+                            <td>€50</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Grote schuimspaan</td>
+                            <td>€10 + €1/per dag extra</td>
+                            <td>€50</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Grote pollepel</td>
+                            <td>€10 + €1/per dag extra</td>
+                            <td>€50</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Grote houten lepel</td>
+                            <td>€10 + €1/per dag extra</td>
+                            <td>€50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div><br />
+        <div class="row">
+            <div class="col-sm-8 col-xs-12 slideanim">
+                <h3>Tafels en banken</h3>
+                <p>KSA Minderhout verhuurt tafels en banken voor kampen, spaghetti-avonden, feesten… De tafels en banken moeten gehaald en teruggebracht worden bij onze lokalen.</p>
+                <p>Interesse? Stuur dan een mailtje met je gegevens naar <strong>verhuur.ksaminderhout@gmail.com</strong> .</p><br />
+                <p>Prijzen:</p>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Materiaal</th>
+                            <th>Prijs</th>
+                            <th>Waarborg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Banken en tafels</td>
+                            <td>€5/set (1 tafel, 2 banken)</td>
+                            <td>minder dan 5 sets: €150  /   meer dan 5 sets: €300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a href="https://picasaweb.google.com/108841143082213808207/VerhuurTafelsEnBanken?authkey=Gv1sRgCKC7kp6J-fmCTw" target="_blank" rel="noopener">
+                        <div class="panel-body">
+                            <img src="foto's/verhuur_tafel-bank-set.jpg" alt="foto's banken en tafels" />
+                        </div>
+                        <div class="panel-footer">
+                            <h2>Foto's banken en tafels</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Gallerij Section) -->
+    <div id="gallerij" class="container-fluid">
+        <div class="text-center">
+            <h2>Gallerij</h2>
+            <h4>Bekijk hier al onze foto's van op kamp en activiteiten.</h4>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>1<sup>ste</sup> trimester</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_trim1.jpg" alt="foto van 1ste trimester"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>2<sup>de</sup> trimester</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_trim2.jpg" alt="foto van 2de trimester"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>3<sup>de</sup> trimester</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_trim3.jpg" alt="foto van 3de trimester"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>Kamp</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_kamp.jpg" alt="foto van kamp"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>2016 - 2017</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_2016-2017.jpg" alt="foto van vorig jaar"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>2015 - 2016</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_2015-2016.jpg" alt="foto van 2 jaar terug"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>2014 - 2015</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_2014-2015.jpg" alt="foto van 3 jaar terug"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <a role="button" data-toggle="modal" href="#oeps">
+                        <div class="panel-heading">
+                            <h1>Archief</h1>
+                        </div>
+                        <div class="panel-body">
+                            <img src="foto's/gal_archief.jpg" alt="foto van meer dan 2 jaar terug"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid  bg-grey">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contacteer ons en we zullen zo snel mogelijk reageren.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> schoolstraat 8, 2322 Minderhout</p>
+                <p><span class="glyphicon glyphicon-phone"></span> zie Begeleiding</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> ksaminderhout@gmail.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <form method="post" action="mailto:ksaminderhout@gmail.com" enctype="text/plain">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Naam" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Bericht" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default btn-primary pull-right" type="submit">Verzend</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Google Maps -->
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+    <script>
+        function initMap() {
+            var minderhout = { lat: 51.4162466, lng: 4.7598292 };
+            var map = new google.maps.Map(document.getElementById('googleMap'), {
+                zoom: 4,
+                center: minderhout
+            });
+
+            var contentString = 
+                <div id="content">
+                    <div id="siteNotice"></div>
+                    <h1 id="firstHeading" class="firstHeading">KSA Minderhout</h1>
+                    <div id="bodyContent">
+                        <p>schoolstraat 8</p>
+                        <p>2322 Minderhout</p>
+                    </div>
+                </div>
+            
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+                position: minderhout,
+                map: map,
+                title: 'KSA Minderhout'
+            });
+            marker.addListener('click', function () {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+    <!--API code-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTX3c3n1ahs9DdkuAM9Iu_cQGJ-v0BlEo&callback=myMap"></script>
+    
+    <!--footer-->
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="Naar Boven">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p class="social">
+            Je vindt ons ook op:
+            <div class="row">
+                <a href="https://www.facebook.com/KSA-Minderhout-819490488084990/" target="_blank"><i class="fa fa-facebook-official fa-4x" aria-hidden="false" title="Facebook"></i></a> <wbr />
+                <a href="https://www.snapchat.com/add/ksaminderhout" target="_blank"><i class="fa fa-snapchat-square fa-4x" aria-hidden="false" title="Snapchat"></i></a> <wbr />
+                <a href="https://www.instagram.com/ksaminderhout/?hl=nl" target="_blank"><i class="fa fa-instagram fa-4x" aria-hidden="false" title="Instagram"></i></a>
+            </div>
+        </p>
+        <p>&copy;KSA Minderhout | Webmaster: Bjarne</p>
+    </footer>
+
+    <!--modal oeps!-->
+    <div id="oeps" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Oeps <span class="glyphicon glyphicon-exclamation-sign"></span></h3>
+                </div>
+                <div class="modal-body">
+                    Er wordt nog gewerkt aan de site en deze link werkt momenteel nog niet. sorry voor het ongemak, we lossen het probleem zo snel mogelijk op.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-primary" data-dismiss="modal">Terug</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="info_secre_boek.js"></script>
+
+    <script src="scrollanimation.js"></script>
+
+    <script src="navigation.js"></script>
+</body>
+</html>
